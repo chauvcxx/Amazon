@@ -1,10 +1,17 @@
-@selenium
-Feature: Search phone with largest storage
-Search the phone on amazon.co.uk.
-Print the name and price of the phone.
+Feature: Sample
 
-Scenario: Search Phone
+Scenario: Should be able to search for a product from the drop-down menu
+Given John is viewing the Etsy landing page
+When he selects "Clothing & Accessories" and "Belts & Braces" from the dropdown menu
+And he clicks on "Belts"
+Then display for "Running" belts
 
-Given user is on amazon.co.uk page
-When user seraches phone with largest storage
-Then user print the name and price of the phone
+Scenario: Should be able to search for a product from the icons
+Given John is viewing the Etsy landing page Icon
+When he selects "Clothing" and  "Women's Clothing"
+And clicks on "Tops & Tees"
+And selects "Blouses"
+Then display for "Vintage Cotton" top
+
+
+

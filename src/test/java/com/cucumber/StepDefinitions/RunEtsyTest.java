@@ -11,9 +11,9 @@ import cucumber.api.junit.Cucumber;
         glue = "com.cucumber.StepDefinitions",
         plugin = { 
                     "pretty",
-                    "html:target/cucumber",
+                    "html:target/cucumber-html-report",
                 } 
 
         )
-public class RunCukeTest {
+public class RunEtsyTest {
 }
