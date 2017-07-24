@@ -18,7 +18,7 @@ Feature: Sample
 9 Steps ([32m9 passed[0m)
 4m0.986s
 
-
+Read me :
 
 1. I have used Data driven testing for the scenarios
 2. The data can be entered in the featurefile and the desired search result would be displayed
@@ -60,14 +60,4 @@ UI Test cases:
 
 14. The user is able to list product after successfully registering with sell on etsy
 
-API Test cases (General Test cases)
-
-Test return value based on input condition
-
-Does not return anything
-
-Trigger some other API/event/interrupt
-
-Test by updating the data structure - Updating data structure will have some outcome or effect on the system, and that should be authenticated
-
-Test by modify certain resourcesn - If API call modifies some resources then it should be validated by accessing respective resources
+For API Test cases please refer the document attached
