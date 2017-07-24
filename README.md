@@ -60,4 +60,5 @@ UI Test cases:
 
 14. The user is able to list product after successfully registering with sell on etsy
 
+
 For API Test cases please refer the document attached
